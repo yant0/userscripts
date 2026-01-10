@@ -1,1 +1,0 @@
-javascript: document.querySelectorAll("div[class='react-directory-commit-age']").forEach(d => { d.style.display = "flex"; d.style.flexDirection = "column"; d.appendChild(document.createTextNode(/.*\d{4}/i.exec(d.firstChild.getAttribute("title")))) });
