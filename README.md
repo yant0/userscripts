@@ -1,5 +1,6 @@
 # Bunch o userscripts
 
+- [Silly Dark Mode](./Misc/silly_dark_screen.js)
 - [Whatsapp Blur / Privacy](./Whatsapp%20Blur/)
 - [Whatsapp Toggle Sidebar](./Whatsapp%20Sidebar/)
 - [Youtube Convenient Show less](./Youtube%20Convinient%20Show%20Less/)
