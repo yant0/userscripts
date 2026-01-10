@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Whatsapp Sidebar Toggle
 // @namespace    http://tampermonkey.net/
-// @version      2026-01-06
+// @version      2026-01-10
 // @description  Toggle WhatsApp Sidebar
 // @author       Yant0
 // @match        https://web.whatsapp.com/
@@ -31,10 +31,10 @@
 
         if (btn) {
             const currentLabel = btn.getAttribute("aria-label");
-            const sidebar = document.querySelector('.xpilrb4');
-            const chat = document.querySelector('.x18pi947');
+            const sidebar = document.querySelector('header~div:nth-of-type(3)>div');
+            const chat = document.querySelector('div:has(>header>header)');
 
-            if (sidebar) {
+            if (sidebar || chat) {
                 if (currentLabel === prevLabel) {
                     sidebar.classList.toggle('sidebar-hidden');
                     chat.classList.toggle('sidebar-hidden');
