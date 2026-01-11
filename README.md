@@ -1,5 +1,12 @@
 # Bunch o userscripts
 
+## Google Drive
+
+### [Google Drive Pane Hider](/scripts/gdrive-hide.js)
+
+Hides left pane in Google Drive using the small
+"Hide side panel" on bottom right.
+
 ## Whatsapp
 
 ### [Whatsapp Blur / Privacy](/scripts/wa-blur.js)
