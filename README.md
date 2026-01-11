@@ -2,31 +2,31 @@
 
 ## Google Drive
 
-### [Google Drive Pane Hider](./scripts/gdrive-hide.user.js) [<sup>*install*</sup>](github.com/yant0/userscripts/blob/main/scripts/gdrive-hide.user.js?raw=true)
+### [Google Drive Pane Hider](./scripts/gdrive-hide.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/gdrive-hide.user.js?raw=true)
 
 Hides left pane in Google Drive using the small
 "Hide side panel" on bottom right.
 
 ## Whatsapp
 
-### [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](github.com/yant0/userscripts/blob/main/scripts/wa-blur.user.js?raw=true)
+### [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/wa-blur.user.js?raw=true)
 
 Blurs names and phone numbers
 Blurs phone number in group description
 Toggle with `F10`
 
-### [Whatsapp Toggle Sidebar](./scripts/wa-sidebar.user.js) [<sup>*install*</sup>](github.com/yant0/userscripts/blob/main/scripts/wa-sidebar.user.js?raw=true)
+### [Whatsapp Toggle Sidebar](./scripts/wa-sidebar.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/wa-sidebar.user.js?raw=true)
 
 Hides sidebar / messages bar
 Toggleable by double clicking sidebar icons
 
 ## Youtube
 
-### [Youtube Convenient Show less](./scripts/yt-showless.user.js) [<sup>*install*</sup>](github.com/yant0/userscripts/blob/main/scripts/yt-showless.user.js?raw=true)
+### [Youtube Convenient Show less](./scripts/yt-showless.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/yt-showless.user.js?raw=true)
 
 Moves Show Less on opened description, from bottom left to top right
 
-### [Youtube Audio and Caption Shortcut](./scripts/yt-shortcut.user.js) [<sup>*install*</sup>](github.com/yant0/userscripts/blob/main/scripts/yt-shortcut.user.js?raw=true)
+### [Youtube Audio and Caption Shortcut](./scripts/yt-shortcut.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/yt-shortcut.user.js?raw=true)
 
 `ALT + A` For quickly changing audio tracks
 `ALT + C` For quickly changing audio captions language
@@ -35,7 +35,7 @@ Moves Show Less on opened description, from bottom left to top right
 
 ## General
 
-### [Silly Dark Mode](./scripts/silly-dark-mode.user.js) [<sup>*install*</sup>](github.com/yant0/userscripts/blob/main/scripts/silly-dark-mode.user.js?raw=true)
+### [Silly Dark Mode](./scripts/silly-dark-mode.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/silly-dark-mode.user.js?raw=true)
 
 # Userscripts Collection
 
