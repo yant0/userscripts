@@ -1,10 +1,34 @@
 # Bunch o userscripts
 
-- [Silly Dark Mode](./Misc/silly_dark_screen.js)
-- [Whatsapp Blur / Privacy](./Whatsapp%20Blur/)
-- [Whatsapp Toggle Sidebar](./Whatsapp%20Sidebar/)
-- [Youtube Convenient Show less](./Youtube%20Convinient%20Show%20Less/)
-- [Youtube Audio and Caption Shortcut](./Youtube%20Audio%20Caption%20Shortcut/)
+## Whatsapp
+
+### [Whatsapp Blur / Privacy](/scripts/wa-blur.js)
+
+Blurs names and phone numbers
+Blurs phone number in group description
+Toggle with `F10`
+
+### [Whatsapp Toggle Sidebar](./scripts/wa-sidebar.js)
+
+Hides sidebar / messages bar
+Toggleable by double clicking sidebar icons
+
+## Youtube
+
+### [Youtube Convenient Show less](./scripts/yt-showless.js)
+
+Moves Show Less on opened description, from bottom left to top right
+
+### [Youtube Audio and Caption Shortcut](./scripts/yt-shortcut.js)
+
+`ALT + A` For quickly changing audio tracks
+`ALT + C` For quickly changing audio captions language
+
+<details><summary>Notes</summary> No option to choose auto translation</details>
+
+## General
+
+### [Silly Dark Mode](./scripts/silly-dark-mode.js)
 
 # Userscripts Collection
 
@@ -13,6 +37,8 @@
 [Dark Mode](https://greasyfork.org/en/scripts/472251-dark-mode)
 
 # Bookmarklets
+
+Just select the script the script (including the `javascript:`) and drag to your browser's bookmark tab
 
 <details><summary>Github Show Absolute Time</summary>
 
