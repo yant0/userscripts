@@ -4,32 +4,32 @@
 
 ### [Google Drive Pane Hider](./scripts/gdrive-hide.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/gdrive-hide.user.js?raw=true)
 
-Hides left pane in Google Drive using the small
+Hides left pane in Google Drive using the small..
 "Hide side panel" on bottom right.
 
 ## Whatsapp
 
 ### [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/wa-blur.user.js?raw=true)
 
-Blurs names and phone numbers
-Blurs phone number in group description
-Toggle with `F10`
+Blurs names and phone numbers.
+Blurs phone number in group description.
+Toggle with `F10`.
 
 ### [Whatsapp Toggle Sidebar](./scripts/wa-sidebar.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/wa-sidebar.user.js?raw=true)
 
-Hides sidebar / messages bar
-Toggleable by double clicking sidebar icons
+Hides sidebar / messages bar.
+Toggleable by double clicking sidebar icons.
 
 ## Youtube
 
 ### [Youtube Convenient Show less](./scripts/yt-showless.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/yt-showless.user.js?raw=true)
 
-Moves Show Less on opened description, from bottom left to top right
+Moves Show Less on opened description, from bottom left to top right.
 
 ### [Youtube Audio and Caption Shortcut](./scripts/yt-shortcut.user.js) [<sup>*install*</sup>](https://github.com/yant0/userscripts/blob/main/scripts/yt-shortcut.user.js?raw=true)
 
-`ALT + A` For quickly changing audio tracks
-`ALT + C` For quickly changing audio captions language
+`ALT + A` For quickly changing audio tracks.
+`ALT + C` For quickly changing audio captions language.
 
 <details><summary>Notes</summary> No option to choose auto translation</details>
 
@@ -39,9 +39,12 @@ Moves Show Less on opened description, from bottom left to top right
 
 # Userscripts Collection
 
-[Return YouTube Dislike](greasyfork.org/en/scripts/436115-return-youtube-dislike)
-[Disable YouTube Music AutoPause](greasyfork.org/en/scripts/464888-disable-youtube-music-autopause)
-[Dark Mode](greasyfork.org/en/scripts/472251-dark-mode)
+- [Return YouTube Dislike](greasyfork.org/en/scripts/436115)
+- [Disable YouTube Music AutoPause](greasyfork.org/en/scripts/464888)
+- [Dark Mode](greasyfork.org/en/scripts/472251)
+- [WhatsApp Right-Click Dropdown Menu](greasyfork.org/en/scripts/529665)
+- [Add Video Controls on Instagram](greasyfork.org/en/scripts/529664)
+- [YouTube: always show a progress bar](https://gist.github.com/vogler/f0bba0a52a6fed61afab19245e72b5d4/raw/youtube-progress-always.tamper.js)
 
 # Bookmarklets
 
