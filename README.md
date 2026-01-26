@@ -51,6 +51,8 @@ Moves Show Less on opened description, from bottom left to top right.
 - [WhatsApp Right-Click Dropdown Menu](https://greasyfork.org/en/scripts/529665)
 - [Add Video Controls on Instagram](https://greasyfork.org/en/scripts/529664)
 - [YouTube: always show a progress bar](https://gist.github.com/vogler/f0bba0a52a6fed61afab19245e72b5d4/raw/youtube-progress-always.tamper.js)
+- [Discord No Title Bar](https://greasyfork.org/scripts/532904/)
+- [YouTube Music Exponential Volume](https://greasyfork.org/scripts/553411)
 
 # Bookmarklets
 
