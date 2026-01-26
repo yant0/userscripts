@@ -8,6 +8,10 @@
 Hides left pane in Google Drive using the small..
 "Hide side panel" on bottom right.
 
+### [Google Drive Resize Sidebar](./scripts/gdrive-resize.user.js) [<sup>*install*</sup>](./scripts/gdrive-resize.user.js?raw=true)
+
+the above script but better i guess lol.
+
 ## Whatsapp
 
 ### [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](./scripts/wa-blur.user.js?raw=true)
