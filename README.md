@@ -43,6 +43,10 @@ Moves Show Less on opened description, from bottom left to top right.
 
 ### [Silly Dark Mode](./scripts/silly-dark-mode.user.js) [<sup>*install*</sup>](./scripts/silly-dark-mode.user.js?raw=true)
 
+### [Class Picker (for my uni)](./scripts/classpicker.user.js) [<sup>*install*</sup>](./scripts/classpicker.user.js?raw=true)
+Picks class together instead of adding one and refreshing each time.
+Releases stress (for me and the server) and reduces unnecessary api calls.
+
 # Userscripts Collection
 
 - [Return YouTube Dislike](https://greasyfork.org/en/scripts/436115)
