@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Convenient Show less
 // @namespace    http://tampermonkey.net/
-// @version      2026-02-14
+// @version      2026-02-15
 // @description  Place "showless" button to the top-right of description, makes 
 // @author       yant0
 // @match        https://www.youtube.com/*
@@ -12,7 +12,7 @@
 (function () {
     const interval = setInterval(() => {
         const desc = document.getElementById("ytd-watch-info-text");
-        const showless = document.querySelector("tp-yt-paper-button#collapse:not([hidden])");
+        const showless = document.querySelector("#collapse:not([hidden])");
         if (desc && showless) {
             showless.style.margin = "0";
             desc.append(showless);
