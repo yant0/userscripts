@@ -49,14 +49,15 @@ Releases stress (for me and the server) and reduces unnecessary api calls.
 
 # Userscripts Collection
 
-- [Return YouTube Dislike](https://greasyfork.org/en/scripts/436115)
-- [Disable YouTube Music AutoPause](https://greasyfork.org/en/scripts/464888)
-- [Dark Mode](https://greasyfork.org/en/scripts/472251)
-- [WhatsApp Right-Click Dropdown Menu](https://greasyfork.org/en/scripts/529665)
 - [Add Video Controls on Instagram](https://greasyfork.org/en/scripts/529664)
-- [YouTube: always show a progress bar](https://gist.github.com/vogler/f0bba0a52a6fed61afab19245e72b5d4/raw/youtube-progress-always.tamper.js)
+- [Dark Mode](https://greasyfork.org/en/scripts/472251)
+- [Disable YouTube Music AutoPause](https://greasyfork.org/en/scripts/464888)
 - [Discord No Title Bar](https://greasyfork.org/scripts/532904/)
+- [HN Avatars in 396 bytes](https://greasyfork.org/scripts/441566)
+- [Return YouTube Dislike](https://greasyfork.org/en/scripts/436115)
+- [WhatsApp Right-Click Dropdown Menu](https://greasyfork.org/en/scripts/529665)
 - [YouTube Music Exponential Volume](https://greasyfork.org/scripts/553411)
+- [YouTube: always show a progress bar](https://gist.github.com/vogler/f0bba0a52a6fed61afab19245e72b5d4/raw/youtube-progress-always.tamper.js)
 
 # Bookmarklets
 
