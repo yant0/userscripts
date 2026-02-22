@@ -35,7 +35,7 @@
 
     document.head.appendChild(s)
 
-    document.addEventListener("click", function (e) {
-        e.target.closest(".ind").parentElement.querySelector(".togg").click()
+    document.querySelectorAll(".ind").forEach(el => {
+        el.addEventListener("click", () => { el.parentElement.querySelector(".togg").click() })
     })
 })();
