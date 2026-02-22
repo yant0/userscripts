@@ -12,6 +12,12 @@ Hides left pane in Google Drive using the small..
 
 the above script but better i guess lol.
 
+## Hacker News
+
+### [HN Simple Tree](./scripts/hn-simple-tree.user.js) [<sup>*install*</sup>](./scripts/hn-simple-tree.user.js?raw=true)
+
+Simple tree for collapsing HN comments
+
 ## Whatsapp
 
 ### [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](./scripts/wa-blur.user.js?raw=true)
