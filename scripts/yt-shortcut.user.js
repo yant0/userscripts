@@ -1,12 +1,16 @@
 // ==UserScript==
 // @name         Youtube Audio and Caption Shortcut
-// @namespace    http://tampermonkey.net/
-// @version      2026-01-06
-// @description  idk
+// @version      2026-02-22
+// @match        *://www.youtube.com/watch?v=*
+// @description  Shortcut using ALT + A, ALT + C
+// @license      MIT
+// @namespace    https://agha.work
 // @author       yant0
-// @match        https://www.youtube.com/*
+// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/yt-shortcut.user.js
+// @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://www.youtube.com/s/desktop/aaaab8bf/img/favicon_144x144.png
 // @grant        none
+// @noframes
 // ==/UserScript==
 
 (function () {

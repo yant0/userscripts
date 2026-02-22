@@ -1,13 +1,21 @@
 // ==UserScript==
 // @name         Whatsapp Blur
-// @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  
-// @author       Yant0
-// @match        https://web.whatsapp.com/
+// @version      2026-02-22
+// @match        *://web.whatsapp.com/
+// @description  Blurs Whatsapp phone numbers
+// @license      MIT
+// @namespace    https://agha.work
+// @author       yant0
+// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/wa-blur.user.js
+// @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://static.whatsapp.net/rsrc.php/v4/yP/r/rYZqPCBaG70.png
 // @grant        none
+// @noframes
 // ==/UserScript==
+
+// NOTE : There might be other ways of doing this without a script.
+// maybe you could use ublock styling to blur these instead.
+// i might do that sometime in the future and update this
 
 (function () {
     'use strict';

@@ -1,11 +1,15 @@
 // ==UserScript==
 // @name         Silly Dark Mode
-// @namespace    http://tampermonkey.net/
-// @version      2026-01-15
-// @description  lmao
-// @author       Yant0
-// @match        https://*/*
+// @version      2026-02-22
+// @match        *://*
+// @description  idk
+// @license      MIT
+// @namespace    https://agha.work
+// @author       yant0
+// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/silly-dark-mode.user.js
+// @homepageURL  https://github.com/yant0/userscripts
 // @grant        none
+// @noframes
 // ==/UserScript==
 
 (function () {

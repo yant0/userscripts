@@ -1,12 +1,16 @@
 // ==UserScript==
-// @name         Youtube Convenient Show less
-// @namespace    http://tampermonkey.net/
-// @version      2026-02-15
-// @description  Place "showless" button to the top-right of description, makes 
+// @name         Youtube Convinient Showless
+// @version      2026-02-22
+// @match        *://www.youtube.com/watch?v=*
+// @description  Place "showless" button to the top right of description.
+// @license      MIT
+// @namespace    https://agha.work
 // @author       yant0
-// @match        https://www.youtube.com/*
+// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/yt-showless.user.js
+// @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://www.youtube.com/s/desktop/aaaab8bf/img/favicon_144x144.png
 // @grant        none
+// @noframes
 // ==/UserScript==
 
 (function () {

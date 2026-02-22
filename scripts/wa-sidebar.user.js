@@ -1,12 +1,16 @@
 // ==UserScript==
 // @name         Whatsapp Sidebar Toggle
-// @namespace    http://tampermonkey.net/
-// @version      2026-01-10
-// @description  Toggle WhatsApp Sidebar
-// @author       Yant0
-// @match        https://web.whatsapp.com/
+// @version      2026-02-22
+// @match        *://web.whatsapp.com/
+// @description  Toggle whatsapp sidebar
+// @license      MIT
+// @namespace    https://agha.work
+// @author       yant0
+// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/wa-sidebar.user.js
+// @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=whatsapp.com
 // @grant        GM_addStyle
+// @noframes
 // ==/UserScript==
 
 (function () {
