@@ -1,57 +1,14 @@
 # Bunch o userscripts
 
-## Google Drive
-
-### [Google Drive Pane Hider](./scripts/gdrive-hide.user.js) [<sup>*install*</sup>](./scripts/gdrive-hide.user.js?raw=true)
-![gdrive-hide](https://github.com/user-attachments/assets/e8c4e436-806d-4d5f-9324-827090162cb0)
-
-Hides left pane in Google Drive using the small..
-"Hide side panel" on bottom right.
-
-### [Google Drive Resize Sidebar](./scripts/gdrive-resize.user.js) [<sup>*install*</sup>](./scripts/gdrive-resize.user.js?raw=true)
-
-the above script but better i guess lol.
-
-## Hacker News
-
-### [HN Simple Tree](./scripts/hn-simple-tree.user.js) [<sup>*install*</sup>](./scripts/hn-simple-tree.user.js?raw=true)
-
-Simple tree for collapsing HN comments
-
-## Whatsapp
-
-### [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](./scripts/wa-blur.user.js?raw=true)
-
-Blurs names and phone numbers.
-Blurs phone number in group description.
-Toggle with `F10`.
-
-### [Whatsapp Toggle Sidebar](./scripts/wa-sidebar.user.js) [<sup>*install*</sup>](./scripts/wa-sidebar.user.js?raw=true)
-![wa-sidebar](https://github.com/user-attachments/assets/3629b478-4da8-43b3-84c2-a0e0511398f6)
-
-Hides sidebar / messages bar.
-Toggleable by double clicking sidebar icons.
-
-## Youtube
-
-### [Youtube Convenient Show less](./scripts/yt-showless.user.js) [<sup>*install*</sup>](./scripts/yt-showless.user.js?raw=true)
-
-Moves Show Less on opened description, from bottom left to top right.
-
-### [Youtube Audio and Caption Shortcut](./scripts/yt-shortcut.user.js) [<sup>*install*</sup>](./scripts/yt-shortcut.user.js?raw=true)
-
-`ALT + A` For quickly changing audio tracks.
-`ALT + C` For quickly changing audio captions language.
-
-<details><summary>Notes</summary> No option to choose auto translation</details>
-
-## General
-
-### [Silly Dark Mode](./scripts/silly-dark-mode.user.js) [<sup>*install*</sup>](./scripts/silly-dark-mode.user.js?raw=true)
-
-### [Class Picker (for my uni)](./scripts/classpicker.user.js) [<sup>*install*</sup>](./scripts/classpicker.user.js?raw=true)
-Picks class together instead of adding one and refreshing each time.
-Releases stress (for me and the server) and reduces unnecessary api calls.
+- [Google Drive Pane Hider](./scripts/gdrive-hide.user.js) [<sup>*install*</sup>](./scripts/gdrive-hide.user.js?raw=true)
+- [Google Drive Resize Sidebar](./scripts/gdrive-resize.user.js) [<sup>*install*</sup>](./scripts/gdrive-resize.user.js?raw=true)
+- [HN Simple Tree](./scripts/hn-simple-tree.user.js) [<sup>*install*</sup>](./scripts/hn-simple-tree.user.js?raw=true)
+- [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](./scripts/wa-blur.user.js?raw=true)
+- [Whatsapp Toggle Sidebar](./scripts/wa-sidebar.user.js) [<sup>*install*</sup>](./scripts/wa-sidebar.user.js?raw=true)
+- [Youtube Convenient Show less](./scripts/yt-showless.user.js) [<sup>*install*</sup>](./scripts/yt-showless.user.js?raw=true)
+- [Youtube Audio and Caption Shortcut](./scripts/yt-shortcut.user.js) [<sup>*install*</sup>](./scripts/yt-shortcut.user.js?raw=true)
+- [Silly Dark Mode](./scripts/silly-dark-mode.user.js) [<sup>*install*</sup>](./scripts/silly-dark-mode.user.js?raw=true)
+- [Class Picker (for my uni)](./scripts/classpicker.user.js) [<sup>*install*</sup>](./scripts/classpicker.user.js?raw=true)
 
 # Userscripts Collection
 
