@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         GDrive Hide Left Panel
-// @version      2026-02-22
+// @version      2026-02-23
 // @match        *://drive.google.com/*
 // @description  Hides left panel on GDrive when clicking the "Hide side panel" on bottom right
 // @license      MIT
-// @namespace    https://agha.work
 // @author       yant0
-// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/gdrive-hide.user.js
+// @namespace    https://agha.work
 // @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none

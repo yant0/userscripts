@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         Uni Class Picker
-// @version      2026-02-22
+// @version      2026-02-23
 // @match        *://*.ac.id/registration/courses
 // @description  Picks class together instead of adding one and refreshing each time
 // @license      MIT
-// @namespace    https://agha.work
 // @author       yant0
-// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/classpicker.user.js
+// @namespace    https://agha.work
 // @homepageURL  https://github.com/yant0/userscripts
 // @grant        none
 // @noframes

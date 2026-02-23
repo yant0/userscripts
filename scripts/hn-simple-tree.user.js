@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         HN Simple Tree
-// @version      2026-02-22
+// @version      2026-02-23
 // @match        *://news.ycombinator.com/item?id=*
 // @description  Simple tree for collapsing HN comments
 // @license      MIT
-// @namespace    https://agha.work
 // @author       yant0
-// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/hn-simple-tree.user.js
+// @namespace    https://agha.work
 // @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://news.ycombinator.com/y18.svg
 // @grant        none

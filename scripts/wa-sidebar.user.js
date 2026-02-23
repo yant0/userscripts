@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         Whatsapp Sidebar Toggle
-// @version      2026-02-22
+// @version      2026-02-23
 // @match        *://web.whatsapp.com/
 // @description  Toggle whatsapp sidebar
 // @license      MIT
-// @namespace    https://agha.work
 // @author       yant0
-// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/wa-sidebar.user.js
+// @namespace    https://agha.work
 // @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=whatsapp.com
 // @grant        GM_addStyle

@@ -1,12 +1,11 @@
 // ==UserScript==
 // @name         Whatsapp Blur
-// @version      2026-02-22
+// @version      2026-02-23
 // @match        *://web.whatsapp.com/
 // @description  Blurs Whatsapp phone numbers
 // @license      MIT
-// @namespace    https://agha.work
 // @author       yant0
-// @downloadURL  https://github.com/yant0/userscripts/raw/refs/heads/main/scripts/wa-blur.user.js
+// @namespace    https://agha.work
 // @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://static.whatsapp.net/rsrc.php/v4/yP/r/rYZqPCBaG70.png
 // @grant        none
