@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YTM Lyrics
-// @version      2026-02-28 
+// @version      2026-03-01 
 // @match        *://music.youtube.com/*
 // @description  Get additional lyrics from lrclib
 // @license      MIT
@@ -25,14 +25,20 @@
     let sync = []
     const s = document.createElement("style")
     s.textContent = `
-        lyrics * {
-            cursor: pointer;
-        }
-        .highlighted {
-            padding-block: 1rem;
-            transform-origin: left;
-            background-color: #2229;
-            transition: all 0.5s ease-out;
+        lyric {
+            &, * {
+                padding-block: 1.5rem;
+            }
+            .synced {
+                cursor: pointer;
+                color: #fff3;
+            }
+            .highlighted {
+                color: white !important;
+                padding-block: 2rem;
+                transform-origin: left;
+                transition: all 0.5s ease-out;
+            }
         }`
     document.head.appendChild(s)
 
@@ -62,7 +68,6 @@
                 lyric_container.lastElementChild.remove()
             }
             if (lyric_tab.getAttribute("aria-selected")) fetch_lyric();
-            media = document.querySelector("video")
         })
         song_observer.observe(player_tab, { childList: true, subtree: true })
     }
@@ -91,6 +96,7 @@
 
     function getSongDetails() {
         song = [...player_tab.querySelectorAll("yt-formatted-string")].map(el => el.textContent.split("•"));
+        if (song.length <= 1) { return }
         console.log(song)
         song_title = song[0][0].trim()
         song_artist = song[1][0].includes("views") ? null : song[1][0].trim()
@@ -109,28 +115,27 @@
         else if (lyrics.plainLyrics) { lyric_container.appendChild(formatLyrics(false)) }
 
         function formatLyrics(synced) {
+            media = document.querySelector("video")
             const lyric = document.createElement("lyric")
             if (synced) {
                 // i need help fixing this regex, the fourth capture should return how many newlines. "/n/n"
+                // or this shit could be parsed line by line
                 const lyric_meta = [...lyrics.syncedLyrics.matchAll(/\[0?([\d:.]+).+?((?=\s).+?(?=\[)| )/gs)]
                 for (const [, time, line] of lyric_meta) {
-                    sync.push(time)
-                    const lyric_element = document.createElement("div")
-                    lyric_element.onclick = () => { document.querySelector('video').currentTime = toSeconds(time) }
-                    lyric_element.id = time
 
-                    // this so fucked lol
+                    const lyric_element = document.createElement("div")
+                    lyric_element.onclick = () => { media.currentTime = toSeconds(time) }
+                    lyric_element.classList.add("synced")
+                    lyric_element.id = time
+                    sync.push(toSeconds(time))
+
+                    lyric_element.textContent = line.replace(/\n/g, "").trim()
+                    lyric.appendChild(lyric_element)
                     if (line.length <= 3 && /^\s(?:\n)*$/g.test(line)) {
                         lyric_element.innerHTML = "<br>"
-                        lyric.appendChild(lyric_element)
-                    } else if (/(?:\n){2,}/g.test(line)) { // needs to account for CARRIAGE RETURN 
+                    } else if (/(?:\n){2,}/g.test(line)) {
                         const br = document.createElement("br")
-                        lyric_element.textContent = line.replace(/\n/g, "")
-                        lyric.appendChild(lyric_element)
                         lyric.appendChild(br)
-                    } else {
-                        lyric_element.textContent = line.replace(/\n/g, "")
-                        lyric.appendChild(lyric_element)
                     }
                 }
             } else {
