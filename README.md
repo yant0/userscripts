@@ -4,6 +4,7 @@
 - [Google Drive Resize Sidebar](./scripts/gdrive-resize.user.js) [<sup>*install*</sup>](./scripts/gdrive-resize.user.js?raw=true)
 - [HN Simple Tree](./scripts/hn-simple-tree.user.js) [<sup>*install*</sup>](./scripts/hn-simple-tree.user.js?raw=true)
 - [Pikimov Hide Info Card](./scripts/pikimov-hide.user.js) [<sup>*install*</sup>](./scripts/pikimov-hide.user.js?raw=true)
+- [SoundCloud Redirect Current Song](./scripts/sc-redirect-current.user.js) [<sup>*install*</sup>](./scripts/sc-redirect-current.user.js?raw=true)
 - [Whatsapp Blur / Privacy](./scripts/wa-blur.user.js) [<sup>*install*</sup>](./scripts/wa-blur.user.js?raw=true)
 - [Whatsapp Toggle Sidebar](./scripts/wa-sidebar.user.js) [<sup>*install*</sup>](./scripts/wa-sidebar.user.js?raw=true)
 - [Youtube Convenient Show less](./scripts/yt-showless.user.js) [<sup>*install*</sup>](./scripts/yt-showless.user.js?raw=true)
