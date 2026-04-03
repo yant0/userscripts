@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         SoundCloud Redirect Current Song
-// @version      2026-03-30
+// @version      2026-04-03
 // @match        *://soundcloud.com/*
 // @description  Automatically redirects IF current song player's is open. For toggleable version use https://greasyfork.org/scripts/419468
 // @license      MIT
@@ -8,8 +8,6 @@
 // @namespace    https://agha.work
 // @homepageURL  https://github.com/yant0/userscripts
 // @icon         https://a-v2.sndcdn.com/assets/images/sc-icons/ios-a62dfc8fe7.png
-// @run-at       document-idle
-// @grant        none
 // @noframes
 // ==/UserScript==
 
@@ -19,7 +17,7 @@
     const sound_badge = document.querySelector("div.playbackSoundBadge")
     function current_song() { return sound_badge.querySelector("span[aria-hidden]") }
     function player() { return document.querySelector(".soundTitle span") }
-    let song = current_song().innerText
+    let song = current_song().innerText || null
     let prev_song = null
 
     const o = new MutationObserver(() => {
